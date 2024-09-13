@@ -1,1 +1,1 @@
-# videoEditorProject
+download with git clone --recurse-submodules https://github.com/Todd-Stein/CSU-Software-Engineering-Project

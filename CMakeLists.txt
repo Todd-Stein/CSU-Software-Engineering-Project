@@ -13,3 +13,7 @@ project ("videoEditorProject")
 
 # Include sub-projects.
 add_subdirectory ("videoEditorProject")
+
+add_subdirectory("videoEditorProject/thirdparties/SDL")
+
+target_include_directories(videoEditorProject PUBLIC ./thirdparties/SDL/include/SDL3/)
