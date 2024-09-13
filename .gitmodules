@@ -1,0 +1,9 @@
+[submodule "videoEditorProject/thirdparties/SDL"]
+	path = videoEditorProject/thirdparties/SDL
+	url = https://github.com/libsdl-org/SDL
+[submodule "videoEditorProject/thirdparties/FFmpeg"]
+	path = videoEditorProject/thirdparties/FFmpeg
+	url = https://github.com/FFmpeg/FFmpeg
+[submodule "videoEditorProject/thirdparties/imgui"]
+	path = videoEditorProject/thirdparties/imgui
+	url = https://github.com/ocornut/imgui
