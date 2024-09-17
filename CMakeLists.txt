@@ -9,11 +9,9 @@ if (POLICY CMP0141)
   set(CMAKE_MSVC_DEBUG_INFORMATION_FORMAT "$<IF:$<AND:$<C_COMPILER_ID:MSVC>,$<CXX_COMPILER_ID:MSVC>>,$<$<CONFIG:Debug,RelWithDebInfo>:EditAndContinue>,$<$<CONFIG:Debug,RelWithDebInfo>:ProgramDatabase>>")
 endif()
 
-project ("videoEditorProject")
+#add_subdirectory("videoEditorProject/thirdparties/SDL")
 
 # Include sub-projects.
 add_subdirectory ("videoEditorProject")
 
-add_subdirectory("videoEditorProject/thirdparties/SDL")
-
-target_include_directories(videoEditorProject PUBLIC ./thirdparties/SDL/include/SDL3/)
+#target_link_libraries(videoEditorProject PRIVATE SDL3)
